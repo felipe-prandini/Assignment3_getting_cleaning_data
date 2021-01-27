@@ -62,22 +62,28 @@ The codebook properly describes all variables, but a summary of what each signal
 All those measures refers to either:
 1. the raw information collected from accelerometers and gyroscopes from the Samsung Galaxy S while some subjects performed a set of pre-defined tasks
 2. measures derived from this raw information
+
 First component
 - time: time domain signals collected at a constant rate of 50Hz
 - frequency: frequency domain signals. A Fast Fourier Transform (FFT) was applied to the raw signals producing those measures
+
 Second Component (gyroscope data have only the body component)
 The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz
 - body: body acceleration signals separated by the low pass filter
 - gravity: gravity acceleration signals separated by the low pass filter
+
 Thrid Component
 - acceleration: source of the signal is from the accelerometer
 - gyroscope: source of the signal is form the gyroscope
+
 Fourth Component (optional, may have both)
 - jerk: Jerk signals derived in time from body linear acceleration and angular velocity
 - magnitude: magnitude of these three-dimensional signals were calculated using the Euclidean norm 
+
 Fith Component
 - mean: mean value of the signal
 - stdev: standard deviation value of the signal
+
 Sixth Component (optional, not for magnitudes)
 - axis (x, y or z): used to denote the direction of the signal in a 3-axial form
 
