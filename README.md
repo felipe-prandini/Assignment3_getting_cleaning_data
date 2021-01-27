@@ -5,7 +5,7 @@ This course is part of the [data science specialization by Johns Hopkins Univers
 ## TL;DR Instructions
 - Read this README file to understand the background of the problem
 - Read the CodeBook.md to understand the output variables of the tidy_dataset
-- Open the following R script: [run_analysis.R]()
+- Open the following R script: [run_analysis.R](https://github.com/felipe-prandini/Assignment3_getting_cleaning_data/blob/main/run_analysis.R)
 - Update the directory variable to your prefered working directory
 - Source the code
 - Output is a tidy dataset as described by the problem statement
@@ -16,9 +16,9 @@ This course is part of the [data science specialization by Johns Hopkins Univers
 ## Objective
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.
 You will be required to submit:
-1. a tidy data set as described below, [final_tidy_data.txt]()
+1. a tidy data set as described below, [final_tidy_data.txt](https://github.com/felipe-prandini/Assignment3_getting_cleaning_data/blob/main/final_tidy_data.txt)
 2. a link to a Github repository with your script for performing the analysis, [here](https://github.com/felipe-prandini/Assignment3_getting_cleaning_data) 
-3. a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called [CodeBook.md]()
+3. a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called [CodeBook.md](https://github.com/felipe-prandini/Assignment3_getting_cleaning_data/blob/main/code_book.md)
 
 You should also include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected
 
