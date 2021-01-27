@@ -9,7 +9,7 @@ This course is part of the [data science specialization by Johns Hopkins Univers
 - Update the directory variable to your prefered working directory
 - Source the code
 - Output is a tidy dataset as described by the problem statement
-- Load the dataset using read.table("final_tidy_data.txt", sep = ",", dec = ".")
+- Load the dataset using read.table("final_tidy_data.txt", sep = ",", dec = ".", header = TRUE)
 
 
 
