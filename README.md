@@ -89,6 +89,12 @@ Sixth Component (optional, not for magnitudes)
 - axis (x, y or z): used to denote the direction of the signal in a 3-axial form
 
 ### 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject
+This last portion calculates the mean for each measure per subject per activity and uploads it into final_tidy_data.txt
+This data set meets the tidy data criteria by:
+1. Each variable is designated in each column (subject, activity, measure and the mean for the measure)
+2. Each observation is one row: We are considering "the measure of a subject performing a given activity" as one observation. Further details please read disclaimer below
+3. We are only considering one type of observation to form this table
+
 
 **Disclaimer**
 In this step each one of the "previous variables" will now be treated as an observation. The observation will be considered "the measure of a subject performing a given activity" while the variable will be "the average of the signals derived from the sensors"
